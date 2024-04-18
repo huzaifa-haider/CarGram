@@ -13,6 +13,24 @@
         android:theme="@style/Theme.CarGram"
         tools:targetApi="31">
         <activity
+            android:name=".AdminDashboardScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".CreatePostScreen"
+            android:exported="false" />
+        <activity
             android:name=".LikedScreen"
             android:exported="false" />
         <activity
