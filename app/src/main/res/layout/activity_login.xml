@@ -103,6 +103,20 @@
 
     </androidx.cardview.widget.CardView>
 
+    <Button
+        android:id="@+id/loginguestbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Login as Guest"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/buttons"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

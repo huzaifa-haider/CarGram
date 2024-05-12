@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CarGram</string>
+    <string name="url">http://192.168.0.107:5000</string>
+    <string name="default_notification_channel_id">CarGram</string>
 </resources>
